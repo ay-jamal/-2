@@ -1,0 +1,116 @@
+body{
+font-family: "Nunito", sans-serif;
+background-image: url(https://images.unsplash.com/photo-1490414446283-fb5609f1173c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAzfHxob3JzZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+
+background-repeat: repeat;
+font-style: italic;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+.navbar-brand{
+    font-weight: 100px;
+    font-size: 3rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 120px;
+    
+}
+
+.card{
+    margin: 25px 0;
+}
+
+.card-title{
+    font-size: large;
+}
+
+#start{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#form-control{
+    margin-left: 500px;
+}
+
+
+.btn{
+    padding: 5px 25px;
+}
+
+.date{
+    
+}
+
+.btn1{
+    float: right;
+    padding: 0px 15px;
+    margin-left: 700px;
+    
+}
+
+
+
+.login{
+    float: right;
+    margin-left: 500px;
+    
+
+
+}
+
+.log-but{
+    
+    border: palevioletred;
+ 
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+
+.log-but:hover{
+color: firebrick;
+}
+
+.username{
+    border: palevioletred;
+ 
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.passwd{
+    border: palevioletred;
+ 
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+h3 {
+    text-align:center;
+}
